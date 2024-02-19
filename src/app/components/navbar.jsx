@@ -3,7 +3,7 @@ import styles from "./Bar.module.css"
 
 export default function Navbar() {
   return (
-    <nav className={styles.bar}>
+    <nav className={styles.navbar}>
       {/* <div className={styles.navbartop}></div> */}
       <div className={styles.links}>
         <Link href="/" className={styles.button}>

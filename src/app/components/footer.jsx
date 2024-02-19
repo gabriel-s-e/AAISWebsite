@@ -2,7 +2,7 @@ import styles from "./Bar.module.css"
 
 export default function Footer() {
   return (
-    <div className={styles.bar}>
+    <div className={styles.footer}>
       <div className={styles.links}>
         <div className={styles.linkbox}>
           <div className={styles.links}>
