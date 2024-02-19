@@ -54,7 +54,7 @@
     position: absolute;
     bottom: 0;
     left: 50%;
-    margin: 22px;
+    margin-bottom: 22px;
     transform: translate(-50%, 0);
 }
 
