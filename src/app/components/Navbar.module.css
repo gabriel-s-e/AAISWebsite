@@ -1,0 +1,49 @@
+
+.button {
+    background-color: #f4edea;
+    color: #4f6397;
+    border: 5px solid #4f6397;
+    margin: 22px;
+    margin-top: 14px;
+    text-transform: uppercase;
+    font-weight: 900;
+    text-decoration: none;
+    width: 16%;
+    max-width: 271px;
+    min-width: 150px;
+    height: 125px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: x-large;
+    flex-direction: column;
+}
+
+.navbar {
+    background-color: #f4edea;
+    border: 5px solid #5eb8c8;
+    width: 80%;
+    max-width: 1500px;
+    min-width: 1234px;
+    height: 205px;
+    border-top: 36px solid #5eb8c8;
+    box-sizing: border-box;
+    margin: auto;
+    align-items: center;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.shape {
+    height: 50px;
+    width: 50px;
+    background-color: #4f6397;
+}
+
+.buttontitle {
+    margin-top: 10px;
+}
