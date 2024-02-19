@@ -16,7 +16,8 @@ export default function Footer() {
           </div>
         </div>
         <Link href="/events" className={styles.meetbox}>
-          Next meeting: Eventually
+          <div className={styles.nextmeettext}>Next meeting: Jan 12</div>
+          <div className={styles.nextmeettext}>AI in Something</div>
         </Link>
       </div>
     </div>

@@ -13,7 +13,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: x-large;
+    font-size: 20px;
     color: #4f6397;
     flex-direction: column;
 }
@@ -94,15 +94,25 @@
 .meetbox {
     border: 5px solid #4f6397;
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: flex-start;
     align-items: center;
     width: 50%;
     height: 125px;
     margin-left: 22px;
     margin-right: 22px;
-    font-size: x-large;
+    font-size: 30px;
+    letter-spacing: 5px;
     color: #4f6397;
     font-weight: 900;
     text-transform: uppercase;
     text-decoration: none;
+}
+
+.nextmeettext {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
 }

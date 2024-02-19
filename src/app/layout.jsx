@@ -1,7 +1,10 @@
 import { Azeret_Mono } from "next/font/google"
 import "./globals.css"
 
-const azaret_mono = Azeret_Mono({ subsets: ["latin"] })
+const azaret_mono = Azeret_Mono({
+  subsets: ["latin"],
+  weight: ['800','400'],
+})
 
 export const metadata = {
   title: "Next.js",
@@ -10,7 +13,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-     <html lang="en" >
+     <html lang="en" className={azaret_mono.className}>
        <body>{children}</body>
      </html>
    )
