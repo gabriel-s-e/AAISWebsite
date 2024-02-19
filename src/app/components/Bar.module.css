@@ -1,10 +1,9 @@
 
 .button {
     background-color: #f4edea;
-    color: #4f6397;
     border: 5px solid #4f6397;
-    margin: 22px;
-    margin-top: 14px;
+    margin-left: 22px;
+    margin-right: 22px;
     text-transform: uppercase;
     font-weight: 900;
     text-decoration: none;
@@ -16,10 +15,11 @@
     align-items: center;
     justify-content: center;
     font-size: x-large;
+    color: #4f6397;
     flex-direction: column;
 }
 
-.navbar {
+.bar {
     background-color: #f4edea;
     border: 5px solid #5eb8c8;
     width: 80%;
@@ -36,6 +36,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 14px;
 }
 
 .shape {
@@ -44,6 +45,40 @@
     background-color: #4f6397;
 }
 
+.marginshape {
+    height: 50px;
+    width: 50px;
+    background-color: #4f6397;
+    margin: 30px;
+}
+
 .buttontitle {
     margin-top: 10px;
+}
+
+.linkbox {
+    border: 5px solid #4f6397;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 125px;
+    margin-left: 22px;
+    margin-right: 22px;
+}
+
+.meetbox {
+    border: 5px solid #4f6397;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 125px;
+    margin-left: 22px;
+    margin-right: 22px;
+    font-size: x-large;
+    color: #4f6397;
+    font-weight: 900;
+    text-transform: uppercase;
 }

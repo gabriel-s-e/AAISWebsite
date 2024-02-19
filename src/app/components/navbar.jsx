@@ -1,10 +1,10 @@
 import Link from "next/link"
-import styles from "./Navbar.module.css"
+import styles from "./Bar.module.css"
 
 export default function Navbar() {
   return (
-    <nav className={styles.navbar}>
-      <div className={styles.navbartop}></div>
+    <nav className={styles.bar}>
+      {/* <div className={styles.navbartop}></div> */}
       <div className={styles.links}>
         <Link href="/" className={styles.button}>
           <div className={styles.shape}></div>
