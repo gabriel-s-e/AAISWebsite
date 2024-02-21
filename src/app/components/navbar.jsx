@@ -1,36 +1,43 @@
 import Link from "next/link"
 import styles from "./Bar.module.css"
+// import globals from "../globals.css"
 import { PiHexagonBold } from "react-icons/pi";
 import { MdOutlineCalendarToday, MdOutlinePerson, MdOutlineQuiz, MdChatBubbleOutline, MdBookmarkBorder  } from "react-icons/md";
 
 export default function Navbar() {
   return (
     <nav className={styles.navbar}>
-      {/* <div className={styles.navbartop}></div> */}
-      <div className={styles.links}>
+      <div className={styles.window__top}>
+          <div className={styles.window__top__icon}></div>
+          <h3 className={styles.window__title}>Navigation</h3>
+          <div className={styles.window__top__min}></div>
+          <div className={styles.window__top__full}></div>
+          <div className={styles.window__top__x}></div>
+      </div>
+      <div className={styles.window__container}>
         <Link href="/" className={styles.button}>
-          <div className={styles.shape}><PiHexagonBold size={50}/></div>
-          <div className={styles.buttontitle}>Home</div>
+          <PiHexagonBold size={50}/>
+          <div className={styles.button__title}>Home</div>
         </Link>
         <Link href="/about" className={styles.button}>
-          <div className={styles.shape}><MdOutlinePerson size={50}/></div>
-          <div className={styles.buttontitle}>About</div>
+          <MdOutlinePerson size={50}/>
+          <div className={styles.button__title}>About</div>
         </Link>
         <Link href="/events" className={styles.button}>
-          <div className={styles.shape}><MdOutlineCalendarToday size={48}/></div>
-          <div className={styles.buttontitle}>Events</div>
+          <MdOutlineCalendarToday size={48}/>
+          <div className={styles.button__title}>Events</div>
         </Link>
         <Link href="/resources" className={styles.button}>
-          <div className={styles.shape}><MdBookmarkBorder size={50}/></div>
-          <div className={styles.buttontitle}>Resources</div>
+          <MdBookmarkBorder size={50}/>
+          <div className={styles.button__title}>Resources</div>
         </Link>
         <Link href="/FAQ" className={styles.button}>
-          <div className={styles.shape}><MdOutlineQuiz size={50}/></div>
-          <div className={styles.buttontitle}>FAQs</div>
+          <MdOutlineQuiz size={50}/>
+          <div className={styles.button__title}>FAQs</div>
         </Link>
         <Link href="/contact" className={styles.button}>
-          <div className={styles.shape}><MdChatBubbleOutline size={50}/></div>
-          <div className={styles.buttontitle}>Contact</div>
+          <MdChatBubbleOutline size={50}/>
+          <div className={styles.button__title}>Contact</div>
         </Link>
       </div>
     </nav>

@@ -1,85 +1,150 @@
+/* This file contains styles for the navbar and footer components */
+.window__top {
+    text-transform: uppercase;
+    background-color: #5eb8c8;
+    color: #f4edea;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.window__title {
+    margin: 0px;
+    margin-left: 7px;
+}
+
+
+.window__top__icon {
+    height: 20px;
+    width: 20px;
+    background-color: #f4edea;
+}
+.window__top__min {
+    height: 20px;
+    width: 20px;
+    background-color: #f4edea;
+    position: absolute;
+    right: 50px;
+}
+.window__top__full {
+    height: 20px;
+    width: 20px;
+    background-color: #f4edea;
+    position: absolute;
+    right: 25px;
+}
+.window__top__x {
+    height: 20px;
+    width: 20px;
+    background-color: #f4edea;
+    position: absolute;
+    right: 0px;
+}
+
 .button {
+    /* colors */
     background-color: #f4edea;
     border: 5px solid #4f6397;
-    margin-left: 22px;
-    margin-right: 22px;
+    color: #4f6397;
+
+    /* text options */
     text-transform: uppercase;
+    font-size: 20px;
     font-weight: 900;
     text-decoration: none;
+
+    /* dimensions */
     width: 16%;
     max-width: 271px;
     min-width: 150px;
     height: 125px;
+    
+    /* spacing */
+    margin-left: 22px;
+    margin-right: 22px;
+
+    /* content positioning */
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    font-size: 20px;
-    color: #4f6397;
-    flex-direction: column;
 }
 
-.buttontitle {
+.button:hover {
+    background-color: #dadada;
+}
+
+.button__title {
     margin-top: 10px;
 }
 
 .navbar {
+    /* colors and styling */
+    filter: drop-shadow(16px 16px rgba(10,10,10,.25));
     background-color: #f4edea;
     border: 5px solid #5eb8c8;
+    border-top: 0px;
+
+    /* dimensions */
+    box-sizing: border-box;
     width: 80%;
     max-width: 1500px;
     min-width: 1234px;
     height: 205px;
-    border-top: 36px solid #5eb8c8;
-    box-sizing: border-box;
-    margin: auto;
-    align-items: center;
-    margin-top: 22px;
+    
+    /* positioning */
     position: fixed;
     top: 0;
-    margin-bottom: 22px;
     left: 50%;
     transform: translate(-50%, 0);
+    margin: auto;
+    margin-top: 22px;
+    margin-bottom: 22px;
+
+    /* content positioning */
+    align-items: center;
 }
 
 .footer {
+    /* colors and styling */
+    filter: drop-shadow(16px 16px rgba(10,10,10,.25));
     background-color: #f4edea;
     border: 5px solid #5eb8c8;
+    border-top: 0px;
+
+    /* dimensions */
+    box-sizing: border-box;
     width: 80%;
     max-width: 1500px;
     min-width: 1234px;
     height: 205px;
-    border-top: 36px solid #5eb8c8;
-    box-sizing: border-box;
-    align-items: center;
+
+    /* positioning */
     position: absolute;
-    bottom: 0;
     left: 50%;
-    margin-bottom: 22px;
     transform: translate(-50%, 0);
+    bottom: 0;
+    margin-top: 22px;
+    margin-bottom: 22px;
+
+    /* content positioning */
+    align-items: center;
 }
 
-.links {
+.window__container {
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 14px;
 }
 
-.shape {
-    height: 50px;
-    width: 50px;
-    /* background-color: #4f6397; */
-}
-
-.marginshape {
-    /* height: 50px;
-    width: 50px; */
-    /* background-color: #4f6397; */
+.smbox__icon {
     color: #4f6397;
     margin: 30px;
 }
 
-.linkbox {
+.smbox {
     border: 5px solid #4f6397;
     display: flex;
     flex-direction: column;
@@ -110,7 +175,7 @@
     text-decoration: none;
 }
 
-.nextmeettext {
+.meetbox__text {
     display: flex;
     justify-content: center;
     align-items: center;
