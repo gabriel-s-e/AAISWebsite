@@ -1,5 +1,6 @@
 import { Azeret_Mono } from "next/font/google"
-import "./globals.css"
+
+import "../app/styles/globals.css"
 
 const azaret_mono = Azeret_Mono({
   subsets: ["latin"],
