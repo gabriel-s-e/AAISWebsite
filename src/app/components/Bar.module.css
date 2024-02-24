@@ -1,115 +1,6 @@
 /* This file contains styles for the navbar and footer components */
 
 .button {
-  /* colors */
-  background-color: #f4edea;
-  /* border: 5px solid #4f6397; */
-  color: #4f6397;
-  box-shadow: inset -2px -2px darkgrey, inset 2px 2px white;
-
-  /* text options */
-  text-transform: uppercase;
-  font-size: 20px;
-  font-weight: 900;
-  text-decoration: none;
-
-  /* dimensions */
-  width: 16%;
-  max-width: 271px;
-  min-width: 150px;
-  height: 125px;
-
-  /* spacing */
-  margin-left: 22px;
-  margin-right: 22px;
-
-  /* content positioning */
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-.button:hover {
-  background-color: #dadada;
-  box-shadow: inset -2px -2px white, inset 2px 2px darkgray;
-  transform: translateY(2px);
-}
-
-.button__title {
-  margin-top: 10px;
-}
-
-.navbar {
-  /* colors and styling */
-  filter: drop-shadow(16px 16px rgba(10, 10, 10, 0.25));
-  background-color: #f4edea;
-  /* border: 5px solid #5eb8c8; */
-  border-top: 0px;
-  box-shadow: inset -2px -2px darkgrey, inset 2px 2px white;
-
-  /* dimensions */
-  box-sizing: border-box;
-  width: 80%;
-  max-width: 1500px;
-  min-width: 1234px;
-  height: 205px;
-
-  /* positioning */
-  position: fixed;
-  top: 0;
-  left: 50%;
-  transform: translate(-50%, 0);
-  margin: auto;
-  margin-top: 22px;
-  margin-bottom: 22px;
-  
-  /* content positioning */
-  align-items: center;
-  padding: 3px;
-}
-
-.footer {
-  /* colors and styling */
-  filter: drop-shadow(16px 16px rgba(10, 10, 10, 0.25));
-  background-color: #f4edea;
-  /* border: 5px solid #5eb8c8; */
-  border-top: 0px;
-  box-shadow: inset -2px -2px darkgrey, inset 2px 2px white;
-
-  /* dimensions */
-  box-sizing: border-box;
-  width: 80%;
-  max-width: 1500px;
-  min-width: 1234px;
-  height: 205px;
-
-  /* positioning */
-  position: absolute;
-  left: 50%;
-  transform: translate(-50%, 0);
-  bottom: 0;
-  margin-top: 22px;
-  margin-bottom: 22px;
-
-  /* content positioning */
-  align-items: center;
-  padding: 3px;
-}
-
-.button_container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 14px;
-}
-
-.smbox__icon {
-  color: #4f6397;
-  margin: 30px;
-}
-
-.smbutton{
     /* colors */
     background-color: #f4edea;
     /* border: 5px solid #4f6397; */
@@ -123,67 +14,176 @@
     text-decoration: none;
   
     /* dimensions */
-    width: 10%;
+    width: 16%;
     max-width: 271px;
-    min-width: 100px;
-    height: 100px;
+    min-width: 150px;
+    height: 125px;
   
     /* spacing */
-    margin-left: 16px;
-    margin-right: 16px;
+    margin-left: 22px;
+    margin-right: 22px;
   
     /* content positioning */
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-}
-
-.smbutton:hover {
-  background-color: #dadada;
-  box-shadow: inset -2px -2px white, inset 2px 2px darkgray;
-  transform: translateY(2px);
-}
-
-.smbox {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 40%;
-  height: 125px;
-  margin-left: 22px;
-  margin-right: 22px;
-}
-
-.meetbutton {
-  /* border: 5px solid #4f6397; */
-  box-shadow: inset -2px -2px darkgrey, inset 2px 2px white;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-content: flex-start;
-  width: 50%;
-  height: 125px;
-  margin-left: 22px;
-  margin-right: 22px;
-  font-size: 30px;
-  letter-spacing: 5px;
-  color: #4f6397;
-  font-weight: 900;
-  text-transform: uppercase;
-  text-decoration: none;
-}
-
-.meetbutton__text {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 20px;
-}
-
-.meetbutton:hover {
-  background-color: #dadada;
-  box-shadow: inset -2px -2px white, inset 2px 2px darkgray;
-  transform: translateY(2px);
-}
+  }
+  
+  .button:hover {
+    background-color: #dadada;
+    box-shadow: inset -2px -2px white, inset 2px 2px darkgray;
+    transform: translateY(2px);
+  }
+  
+  .button__title {
+    margin-top: 10px;
+  }
+  
+  .navbar {
+    /* colors and styling */
+    filter: drop-shadow(16px 16px rgba(10, 10, 10, 0.25));
+    background-color: #f4edea;
+    /* border: 5px solid #5eb8c8; */
+    border-top: 0px;
+    box-shadow: inset -2px -2px darkgrey, inset 2px 2px white;
+  
+    /* dimensions */
+    box-sizing: border-box;
+    width: 80%;
+    max-width: 1500px;
+    min-width: 1234px;
+    height: 205px;
+  
+    /* positioning */
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+    margin: auto;
+    margin-top: 22px;
+    margin-bottom: 22px;
+    
+    /* content positioning */
+    align-items: center;
+    padding: 3px;
+  }
+  
+  .footer {
+    /* colors and styling */
+    filter: drop-shadow(16px 16px rgba(10, 10, 10, 0.25));
+    background-color: #f4edea;
+    /* border: 5px solid #5eb8c8; */
+    border-top: 0px;
+    box-shadow: inset -2px -2px darkgrey, inset 2px 2px white;
+  
+    /* dimensions */
+    box-sizing: border-box;
+    width: 80%;
+    max-width: 1500px;
+    min-width: 1234px;
+    height: 205px;
+  
+    /* positioning */
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    bottom: 0;
+    margin-top: 22px;
+    margin-bottom: 22px;
+  
+    /* content positioning */
+    align-items: center;
+    padding: 3px;
+  }
+  
+  .button_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 14px;
+  }
+  
+  .smbox__icon {
+    color: #4f6397;
+    margin: 30px;
+  }
+  
+  .smbutton{
+      /* colors */
+      background-color: #f4edea;
+      /* border: 5px solid #4f6397; */
+      color: #4f6397;
+      box-shadow: inset -2px -2px darkgrey, inset 2px 2px white;
+    
+      /* text options */
+      text-transform: uppercase;
+      font-size: 20px;
+      font-weight: 900;
+      text-decoration: none;
+    
+      /* dimensions */
+      width: 10%;
+      max-width: 271px;
+      min-width: 100px;
+      height: 100px;
+    
+      /* spacing */
+      margin-left: 16px;
+      margin-right: 16px;
+    
+      /* content positioning */
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+  }
+  
+  .smbutton:hover {
+    background-color: #dadada;
+    box-shadow: inset -2px -2px white, inset 2px 2px darkgray;
+    transform: translateY(2px);
+  }
+  
+  .smbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 125px;
+    margin-left: 22px;
+    margin-right: 22px;
+  }
+  
+  .meetbutton {
+    /* border: 5px solid #4f6397; */
+    box-shadow: inset -2px -2px darkgrey, inset 2px 2px white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: flex-start;
+    width: 50%;
+    height: 125px;
+    margin-left: 22px;
+    margin-right: 22px;
+    font-size: 30px;
+    letter-spacing: 5px;
+    color: #4f6397;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+  
+  .meetbutton__text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .meetbutton:hover {
+    background-color: #dadada;
+    box-shadow: inset -2px -2px white, inset 2px 2px darkgray;
+    transform: translateY(2px);
+  }
