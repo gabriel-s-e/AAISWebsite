@@ -2,6 +2,7 @@ import { FaLinkedin, FaGithub } from 'react-icons/fa';
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import styles from './About.module.css'; // Import the CSS module
+import officerTestPhoto from '../assets/isaac-test.jpeg'
 
 export default function About() {
   return (
@@ -16,7 +17,7 @@ export default function About() {
             <div className={`${styles.officer} ${styles.topRow}`}>
               <div className={styles.position}>President</div>
               <div className={styles.photoContainer}>
-                <img src="/path-to-president-photo.jpg" alt="President" className={styles.photo} />
+                <img src={officerTestPhoto} alt="President" className={styles.photo} />
               </div>
               <div className={styles.name}>John Doe</div>
               <div className={styles.icons}>
