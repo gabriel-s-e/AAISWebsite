@@ -46,8 +46,8 @@ export default function About() {
               </div>
             </div>
 
-{/* Second Row with 3 Officers */}
-          <div className={styles.row}>
+            {/* Second Row with 3 Officers */}
+            <div className={styles.row}>
               <div className={styles.officer}>
                 <div className={styles.position}>Officer Title</div>
                 <div className={styles.photoContainer}>

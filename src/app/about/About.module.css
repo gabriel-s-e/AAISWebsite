@@ -15,6 +15,7 @@
     margin-left: auto;
     margin-right: auto;
     color: #4f6397; /* Set text color to blue */
+    margin-bottom: 60px; /* Set this to the height of the footer */
     /* Other styles */
     /* text-align: center;
     padding: 20px; */
@@ -26,6 +27,7 @@
     justify-content: center;
     align-items: center;
     min-height: 100vh; /* Adjust as needed */
+    padding-bottom: 60px; /* Adjust as needed to create space above the footer */
 }
   
 
