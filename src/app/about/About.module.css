@@ -1,3 +1,7 @@
+.title {
+    text-align: center; /* Center the title */
+}
+
 .navbar {
     z-index: 1000; /* or any high value to ensure it's above other elements */
     /* other styles */
@@ -5,20 +9,20 @@
   
 
 .aboutContainer {
-    background-color: white; /* Set background to white */
+    background-color: white;
     padding: 20px;
-    margin-top: 60px; /* Adjust top margin to push down from navbar */
-    margin-bottom: 60px; /* Adjust bottom margin to avoid overlapping with footer */
-    max-width: 1200px; /* Set a max-width or match with navbar/footer width */
-    margin-left: auto; /* Center the container */
-    margin-right: auto; /* Center the container */
-    z-index: 1000;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    color: blue; /* Set text color to blue */
+    /* Other styles */
     /* text-align: center;
     padding: 20px; */
 }
  
 .contentContainer {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     min-height: 100vh; /* Adjust as needed */
@@ -42,6 +46,12 @@
     flex-basis: calc(50% - 20px); /* Adjust space for 2 officers in top row */
 }
   
+.row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
 .otherRows {
     flex-basis: calc(33.333% - 20px); /* Adjust space for 3 officers in other rows */
 }
