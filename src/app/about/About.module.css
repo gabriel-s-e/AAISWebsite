@@ -1,50 +1,72 @@
-.aboutContainer {
-    text-align: center;
-    padding: 20px;
-  }
+.navbar {
+    z-index: 1000; /* or any high value to ensure it's above other elements */
+    /* other styles */
+}
   
-  .officersContainer {
+
+.aboutContainer {
+    background-color: white; /* Set background to white */
+    padding: 20px;
+    margin-top: 60px; /* Adjust top margin to push down from navbar */
+    margin-bottom: 60px; /* Adjust bottom margin to avoid overlapping with footer */
+    max-width: 1200px; /* Set a max-width or match with navbar/footer width */
+    margin-left: auto; /* Center the container */
+    margin-right: auto; /* Center the container */
+    z-index: 1000;
+    /* text-align: center;
+    padding: 20px; */
+}
+ 
+.contentContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Adjust as needed */
+}
+  
+
+.officersContainer {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
-  }
+}
   
-  .officer {
+.officer {
     display: flex;
     flex-direction: column;
     align-items: center;
-  }
+}
   
-  .topRow {
+.topRow {
     flex-basis: calc(50% - 20px); /* Adjust space for 2 officers in top row */
-  }
+}
   
-  .otherRows {
+.otherRows {
     flex-basis: calc(33.333% - 20px); /* Adjust space for 3 officers in other rows */
-  }
+}
   
-  .position {
+.position {
     margin-bottom: 10px;
     font-weight: bold;
-  }
+}
   
-  .photoContainer {
+.photoContainer {
     width: 150px; /* Adjust as needed */
     height: 150px; /* Adjust as needed */
     clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
     margin-bottom: 10px;
-  }
+}
   
-  .photo {
+.photo {
     width: 100%;
     height: 100%;
     object-fit: cover;
-  }
+}
   
-  .icons a {
+.icons a {
     margin: 0 5px;
-  }
+}
   
   /* Add styles for LinkedIn and GitHub icons */
   

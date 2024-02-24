@@ -10,8 +10,9 @@ export default function About() {
   ];
 
   return (
+  <div>
+    <Navbar />
     <div className={styles.aboutContainer}>
-      <Navbar />
       <h2>MEET THE OFFICERS</h2>
       <div className={styles.officersContainer}>
         {officers.map((officer, index) => (
@@ -32,8 +33,9 @@ export default function About() {
           </div>
         ))}
       </div>
-      <Footer />
     </div>
+    <Footer />
+  </div>
 )}
 
 
