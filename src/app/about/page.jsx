@@ -22,10 +22,10 @@ export default function About() {
               <div className={styles.name}>John Doe</div>
               <div className={styles.icons}>
                 <a href="https://www.linkedin.com/in/johndoe" target="_blank" rel="noopener noreferrer">
-                  <FaLinkedin />
+                  <FaLinkedin className={styles.socialIcon} />
                 </a>
                 <a href="https://github.com/johndoe" target="_blank" rel="noopener noreferrer">
-                  <FaGithub />
+                  <FaGithub className={styles.socialIcon} />
                 </a>
               </div>
             </div>
@@ -37,10 +37,10 @@ export default function About() {
               <div className={styles.name}>John Doe</div>
               <div className={styles.icons}>
                 <a href="https://www.linkedin.com/in/johndoe" target="_blank" rel="noopener noreferrer">
-                  <FaLinkedin />
+                  <FaLinkedin className={styles.socialIcon} />
                 </a>
                 <a href="https://github.com/johndoe" target="_blank" rel="noopener noreferrer">
-                  <FaGithub />
+                  <FaGithub className={styles.socialIcon} />
                 </a>
               </div>
             </div>
