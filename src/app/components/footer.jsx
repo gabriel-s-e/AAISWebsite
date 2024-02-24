@@ -1,4 +1,4 @@
-import styles from "./Bar.module.css";
+import styles from "./Bar.module.css"
 import { FaDiscord, FaLinkedin, FaInstagram } from "react-icons/fa";
 import { PiLightbulbFilamentBold } from "react-icons/pi";
 import { SiGmail } from "react-icons/si";
