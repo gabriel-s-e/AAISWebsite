@@ -8,10 +8,10 @@
 }
   
 
-.aboutContainer {
-    background-color: white;
-    padding: 20px;
-    max-width: 1200px;
+#aboutContainer {
+    background-color: #f4edea;
+    /* padding: 20px; */
+    /* max-width: 1200px; */
     margin-left: auto;
     margin-right: auto;
     color: #4f6397; /* Set text color to blue */

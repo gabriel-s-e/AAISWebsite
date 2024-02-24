@@ -1,15 +1,18 @@
 import { FaLinkedin, FaGithub } from 'react-icons/fa';
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+import WindowTop from '../components/WindowTop';
 import styles from './About.module.css'; // Import the CSS module
 import officerTestPhoto from '../assets/isaac-test.jpeg'
+import { MdOutlinePerson } from "react-icons/md";
 
 export default function About() {
   return (
     <div>
       <Navbar />
       <div className={styles.contentContainer}>
-        <div className={styles.aboutContainer}>
+        <div className="window" id={styles.aboutContainer}>
+          <WindowTop WindowIcon={MdOutlinePerson} title={"About"}/>
           <h2 className={styles.title}>MEET THE OFFICERS</h2>
           <div className={styles.officersContainer}>
 

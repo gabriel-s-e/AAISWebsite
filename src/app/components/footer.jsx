@@ -7,7 +7,7 @@ import WindowTop from "./WindowTop"
 
 export default function Footer() {
   return (
-    <div className={styles.footer}>
+    <div className="window" id={styles.footer}>
       <WindowTop WindowIcon={PiLightbulbFilamentBold} title={"Stay Informed"}/>
       <div className={styles.button_container}>
         <div className={styles.smbox}>

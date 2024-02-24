@@ -1,6 +1,5 @@
 import Link from "next/link";
 import styles from "./Bar.module.css";
-// import globals from "../globals.css"
 import { PiHexagonBold } from "react-icons/pi";
 import { CgShapeHexagon } from "react-icons/cg";
 import {
@@ -14,7 +13,7 @@ import WindowTop from "./WindowTop"
 
 export default function Navbar() {
   return (
-    <nav className={styles.navbar}>
+    <nav className="window" id={styles.navbar}>
       <WindowTop WindowIcon={CgShapeHexagon} title={"Navigation"}/>
       <div className={styles.button_container}>
         <Link href="/" className={styles.button}>
