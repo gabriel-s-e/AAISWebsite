@@ -99,7 +99,55 @@ export default function About() {
             </div>
 
             {/* Third Row with 3 Officers */}
-            {/* Repeat the same structure as the second row */}
+            <div className={styles.row}>
+              <div className={styles.officer}>
+                <div className={styles.position}>Officer Title 1</div>
+                <div className={styles.photoContainer}>
+                  <img src={officerTestPhoto} alt="Officer 1" className={styles.photo} />
+                </div>
+                <div className={styles.name}>Officer Name 1</div>
+                <div className={styles.icons}>
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <FaLinkedin className={styles.socialIcon} />
+                  </a>
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <FaGithub className={styles.socialIcon} />
+                  </a>
+                </div>
+              </div>
+
+              <div className={styles.officer}>
+                <div className={styles.position}>Officer Title 2</div>
+                <div className={styles.photoContainer}>
+                  <img src={officerTestPhoto} alt="Officer 2" className={styles.photo} />
+                </div>
+                <div className={styles.name}>Officer Name 2</div>
+                <div className={styles.icons}>
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <FaLinkedin className={styles.socialIcon} />
+                  </a>
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <FaGithub className={styles.socialIcon} />
+                  </a>
+                </div>
+              </div>
+
+              <div className={styles.officer}>
+                <div className={styles.position}>Officer Title 3</div>
+                <div className={styles.photoContainer}>
+                  <img src={officerTestPhoto} alt="Officer 3" className={styles.photo} />
+                </div>
+                <div className={styles.name}>Officer Name 3</div>
+                <div className={styles.icons}>
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <FaLinkedin className={styles.socialIcon} />
+                  </a>
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <FaGithub className={styles.socialIcon} />
+                  </a>
+                </div>
+              </div>
+            </div>
 
             {/* Fourth Row with 3 Officers */}
             {/* Repeat the same structure as the second row */}
