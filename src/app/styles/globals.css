@@ -7,7 +7,7 @@
 
 body {
   background-color: #400d65;
-  color: #f4edea;
+  color: #4f6397;
 }
 
 html {
@@ -17,6 +17,18 @@ html {
 
 h1 {
   text-transform: uppercase;
+}
+h2 {
+  text-transform: uppercase;
+}
+
+.contentContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Adjust as needed */
+  padding-bottom: 60px; /* Adjust as needed to create space above the footer */
 }
 
 .window {
@@ -34,4 +46,8 @@ h1 {
   
   /* content positioning */
   padding: 3px;
+}
+
+.title {
+  text-align: center;
 }

@@ -1,7 +1,3 @@
-.title {
-    text-align: center; /* Center the title */
-}
-
 .navbar {
     z-index: 1000; /* or any high value to ensure it's above other elements */
     /* other styles */
@@ -20,16 +16,6 @@
     /* text-align: center;
     padding: 20px; */
 }
- 
-.contentContainer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh; /* Adjust as needed */
-    padding-bottom: 60px; /* Adjust as needed to create space above the footer */
-}
-  
 
 .officersContainer {
     display: flex;
