@@ -1,11 +1,17 @@
 import Navbar from "../components/Navbar"
 import Footer from "../components/Footer"
+import WindowTop from "../components/WindowTop"
+import { CgShapeHexagon } from "react-icons/cg";
 
 export default function Page() {
     return (
         <div>
             <Navbar />
-            <h1>resources</h1>
+            <div className="contentContainer">
+                <div className="window" id="homeWindow">
+                    <WindowTop WindowIcon={CgShapeHexagon} title={"Resources"}/>
+                </div>
+            </div>
             <Footer />
         </div>
     )
