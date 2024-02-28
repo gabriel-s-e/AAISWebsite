@@ -10,10 +10,10 @@ export default function About() {
   return (
     <div>
       <Navbar />
-      <div className={styles.contentContainer}>
+      <div className="contentContainer">
         <div className="window" id={styles.aboutContainer}>
           <WindowTop WindowIcon={MdOutlinePerson} title={"About"}/>
-          <h2 className={styles.title}>MEET THE OFFICERS</h2>
+          <h2 className="title">Meet The Officers</h2>
           <div className={styles.officersContainer}>
 
             {/* Top Row with 2 Officers */}
