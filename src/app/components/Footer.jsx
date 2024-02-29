@@ -13,7 +13,7 @@ export default function Footer() {
         <div className={styles.smbox}>
           <div className={styles.button_container}>
             <a
-              href="https://www.instagram.com/"
+              href="https://www.instagram.com/tamuaais/"
               target="_blank"
               className={styles.smbutton}
             >
@@ -33,7 +33,7 @@ export default function Footer() {
               </div>
             </a>
             <a
-              href="https://www.linkedin.com/"
+              href="https://www.linkedin.com/company/aggie-ai-society/"
               target="_blank"
               className={styles.smbutton}
             >
@@ -42,7 +42,11 @@ export default function Footer() {
                 <FaLinkedin size={55} />{" "}
               </div>
             </a>
-            <a href="mailto:" target="_blank" className={styles.smbutton}>
+            <a
+              href="mailto:aais@tamu.edu"
+              target="_blank"
+              className={styles.smbutton}
+            >
               <div className={styles.smbox__icon}>
                 {" "}
                 <SiGmail size={55} />{" "}
