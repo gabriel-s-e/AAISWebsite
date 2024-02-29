@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="290.02878"
+   height="230.9408"
+   viewBox="0 0 76.736779 61.103085"
+   version="1.1"
+   id="svg1"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1">
+    <rect
+       x="194.70351"
+       y="404.33429"
+       width="407.57932"
+       height="99.29879"
+       id="rect2" />
+    <rect
+       x="194.70351"
+       y="404.33429"
+       width="407.57932"
+       height="99.29879"
+       id="rect3" />
+    <rect
+       x="194.70351"
+       y="404.33429"
+       width="407.57932"
+       height="99.29879"
+       id="rect4" />
+  </defs>
+  <g
+     id="layer1"
+     transform="translate(-65.867501,-116.31201)">
+    <path
+       d="m 78.333829,153.45952 v 8.35867 l 25.902291,14.95464 25.90178,-14.95464 v -4.75224 m 5e-5,-21.95353 v -3.2035 L 104.23612,116.95426 78.333829,131.9089 v 3.4184"
+       style="display:inline;fill:none;stroke:#60b9c8;stroke-width:1.11242"
+       id="path11" />
+    <g
+       id="g4"
+       style="display:inline">
+      <text
+         xml:space="preserve"
+         transform="matrix(2.6779881,0,0,2.5244458,-454.01695,-889.62089)"
+         id="text2"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12px;font-family:Arial;-inkscape-font-specification:'Arial, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect2);display:inline;fill:#c2ffff;fill-opacity:0.402439;stroke:none;stroke-width:6.33449;stroke-dasharray:none;stroke-opacity:1"><tspan
+           x="194.70312"
+           y="415.14304"
+           id="tspan1">AAIS</tspan></text>
+      <text
+         xml:space="preserve"
+         transform="matrix(2.6779881,0,0,2.5244458,-454.74548,-890.30766)"
+         id="text3"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12px;font-family:Arial;-inkscape-font-specification:'Arial, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect3);display:inline;fill:#c2feff;fill-opacity:0.457317;stroke:none;stroke-width:6.33461;stroke-dasharray:none;stroke-opacity:1"><tspan
+           x="194.70312"
+           y="415.14304"
+           id="tspan2">AAIS</tspan></text>
+      <text
+         xml:space="preserve"
+         transform="matrix(2.6779881,0,0,2.5244458,-455.54515,-890.99442)"
+         id="text4"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12px;font-family:Arial;-inkscape-font-specification:'Arial, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect4);display:inline;fill:#f4eeeb;fill-opacity:1;stroke:none;stroke-width:6.33449;stroke-dasharray:none;stroke-opacity:1"><tspan
+           x="194.70312"
+           y="415.14304"
+           id="tspan3">AAIS</tspan></text>
+    </g>
+  </g>
+</svg>
