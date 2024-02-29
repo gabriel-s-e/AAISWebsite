@@ -17,6 +17,7 @@ html {
 
 h1 {
   text-transform: uppercase;
+  font-size: 50px;
 }
 h2 {
   text-transform: uppercase;
@@ -28,7 +29,6 @@ h2 {
   justify-content: center;
   align-items: center;
   min-height: 100vh; /* Adjust as needed */
-  padding-bottom: 60px; /* Adjust as needed to create space above the footer */
 }
 
 .window {

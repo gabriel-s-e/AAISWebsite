@@ -71,7 +71,7 @@
     height: 205px;
   
     /* positioning */
-    position: absolute;
+    position: relative;
     left: 50%;
     transform: translate(-50%, 0);
     bottom: 0;
