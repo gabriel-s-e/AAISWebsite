@@ -1,6 +1,6 @@
 /* This file contains styles for the navbar and footer components */
 
-.button {
+.button, .button__current {
     /* colors */
     background-color: #f4edea;
     /* border: 5px solid #4f6397; */
@@ -29,8 +29,14 @@
     align-items: center;
     justify-content: center;
   }
+
+  .button__current {
+    background-color: #dadada;
+    box-shadow: inset -2px -2px white, inset 2px 2px darkgray;
+    transform: translateY(2px);
+  }
   
-  .button:active {
+  .button:focus {
     background-color: #dadada;
     box-shadow: inset -2px -2px white, inset 2px 2px darkgray;
     transform: translateY(2px);
