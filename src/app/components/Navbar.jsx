@@ -15,7 +15,6 @@ import WindowTop from "./WindowTop"
 
 export default function Navbar() {
   const pathname = usePathname();
-  console.log(pathname);
 
   return (
     <nav className="window" id={styles.navbar}>
