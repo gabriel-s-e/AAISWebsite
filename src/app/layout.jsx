@@ -19,7 +19,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-     <html lang="en" className={azaret_mono.className}>
+     <html lang="en" >
        <body>{children}</body>
      </html>
    )
