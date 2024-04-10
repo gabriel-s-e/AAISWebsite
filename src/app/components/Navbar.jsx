@@ -2,7 +2,8 @@
 import Link from "next/link";
 import styles from "./Bar.module.css";
 import { usePathname } from 'next/navigation'
-import { PiHexagonBold } from "react-icons/pi";
+// import { PiHexagonBold } from "react-icons/pi";
+import thin_hex from "../Thin_Hex.svg";
 import { CgShapeHexagon } from "react-icons/cg";
 import {
   MdOutlineCalendarToday,
@@ -12,6 +13,7 @@ import {
   MdBookmarkBorder,
 } from "react-icons/md";
 import WindowTop from "./WindowTop"
+import Image from "next/image"
 
 export default function Navbar() {
   const pathname = usePathname();
@@ -21,7 +23,8 @@ export default function Navbar() {
       <WindowTop WindowIcon={CgShapeHexagon} title={"Navigation"}/>
       <div className={styles.button_container}>
         <Link href="/" className={pathname == "/" ? styles.button__current : styles.button}>
-          <PiHexagonBold size={50} />
+          {/* <PiHexagonBold size={50} /> */}
+          <Image src={thin_hex} width={45} height={45} alt=""/>
           <div className={styles.button__title}>Home</div>
         </Link>
         <Link href="/about" className={pathname == "/about" ? styles.button__current : styles.button}>
