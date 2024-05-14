@@ -1,0 +1,34 @@
+#homeWindow {
+    margin-left: auto;
+    margin-right: auto;
+    color: #4f6397; /* Set text color to blue */
+    margin-bottom: 60px; /* Set this to the height of the footer */
+    margin-top: 1000px;
+}
+
+#homeTitle {
+    background-color: #4f6397;
+    background-image: linear-gradient(45deg, #400d65, #4f6397, #5eb8c8);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}
+
+#logo {
+    display: flex;
+    margin:auto;
+}
+#logoContainer {
+    position: absolute;
+    margin-top: 200px;
+    width: 75%;
+    left: 50%;
+    margin-left: -37.5%;
+}
+
+.windowText {
+    margin: 40px;
+}
