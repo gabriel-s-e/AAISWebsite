@@ -19,33 +19,33 @@ export default function Navbar() {
   const pathname = usePathname();
 
   return (
-    <nav className="window" id={styles.navbar}>
+    <nav className="window" id="navbar">
       <WindowTop WindowIcon={CgShapeHexagon} title={"Navigation"}/>
-      <div className={styles.button_container}>
-        <Link href="/" className={pathname == "/" ? styles.button__current : styles.button}>
+      <div className='button_container'>
+        <Link href="/" className={pathname == "/" ? "button__current" : "button"}>
           {/* <PiHexagonBold size={50} /> */}
           <Image src={thin_hex} width={45} height={45} alt=""/>
-          <div className={styles.button__title}>Home</div>
+          <div className='button__title'>Home</div>
         </Link>
-        <Link href="/about" className={pathname == "/about" ? styles.button__current : styles.button}>
+        <Link href="/about" className={pathname == "/about" ? "button__current" : "button"}>
           <MdOutlinePerson size={50} />
-          <div className={styles.button__title}>About</div>
+          <div className='button__title'>About</div>
         </Link>
-        <Link href="/events" className={pathname == "/events" ? styles.button__current : styles.button}>
+        <Link href="/events" className={pathname == "/events" ? "button__current" : "button"}>
           <MdOutlineCalendarToday size={48} />
-          <div className={styles.button__title}>Events</div>
+          <div className='button__title'>Events</div>
         </Link>
-        <Link href="/resources" className={pathname == "/resources" ? styles.button__current : styles.button}>
+        <Link href="/resources" className={pathname == "/resources" ? "button__current" : "button"}>
           <MdBookmarkBorder size={50} />
-          <div className={styles.button__title}>Resources</div>
+          <div className='button__title'>Resources</div>
         </Link>
-        <Link href="/FAQ" className={pathname == "/FAQ" ? styles.button__current : styles.button}>
+        <Link href="/FAQ" className={pathname == "/FAQ" ? "button__current" : "button"}>
           <MdOutlineQuiz size={50} />
-          <div className={styles.button__title}>FAQs</div>
+          <div className='button__title'>FAQs</div>
         </Link>
-        <Link href="/contact" className={pathname == "/contact" ? styles.button__current : styles.button}>
+        <Link href="/contact" className={pathname == "/contact" ? "button__current" : "button"}>
           <MdChatBubbleOutline size={50} />
-          <div className={styles.button__title}>Contact</div>
+          <div className='button__title'>Contact</div>
         </Link>
       </div>
     </nav>
