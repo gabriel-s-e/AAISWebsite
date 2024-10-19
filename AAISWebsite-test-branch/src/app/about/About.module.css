@@ -1,0 +1,75 @@
+.navbar {
+    z-index: 1000; /* or any high value to ensure it's above other elements */
+    /* other styles */
+}
+  
+
+#aboutContainer {
+    background-color: #f4edea;
+    /* padding: 20px; */
+    /* max-width: 1200px; */
+    margin-left: auto;
+    margin-right: auto;
+    color: #4f6397; /* Set text color to blue */
+    margin-bottom: 60px; /* Set this to the height of the footer */
+    /* Other styles */
+    /* text-align: center;
+    padding: 20px; */
+}
+
+.officersContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+  
+.officer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+  
+.topRow {
+    flex-basis: calc(50% - 20px); /* Adjust space for 2 officers in top row */
+}
+  
+.row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.otherRows {
+    flex-basis: calc(33.333% - 20px); /* Adjust space for 3 officers in other rows */
+}
+  
+.position {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+  
+.photoContainer {
+    width: 150px; /* Adjust as needed */
+    height: 150px; /* Adjust as needed */
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    margin-bottom: 10px;
+}
+  
+.photo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+  
+.icons a {
+    margin: 0 5px;
+}
+
+.socialIcon {
+    color: #4f6397;
+}
+  
+
+  /* Add styles for LinkedIn and GitHub icons */
+  
