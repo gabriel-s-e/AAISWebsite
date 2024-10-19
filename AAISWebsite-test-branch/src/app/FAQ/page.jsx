@@ -53,18 +53,6 @@ const faqData = [
             </>
         )
     },
-    {
-        question: "What kind of events are held?",
-        answer: "Our general meetings go over how companies are using AI, as well as important business standpoints of incorporating AI into industry projects. We also host speaker events where people discuss their research, and go over tutorials where we teach different techniques for using AI."
-    },
-    {
-        question: "What's in it for me?",
-        answer: "Practical experience with AI techniques through tutorials and workshops, and learn how these technologies are used in industries!"
-    },
-    {
-        question: "Who can I contact for more information?",
-        answer: "Feel free to DM us on instagram or post a message in our discord if you have any interesting ideas or have questions not answered here."
-    }
 ];
 
 export default function FAQ() {
