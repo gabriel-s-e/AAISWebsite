@@ -61,7 +61,10 @@ const faqData = [
         question: "What's in it for me?",
         answer: "Practical experience with AI techniques through tutorials and workshops, and learn how these technologies are used in industries!"
     },
-
+    {
+        question: "Who can I contact for more information?",
+        answer: "Feel free to DM us on instagram or post a message in our discord if you have any interesting ideas or have questions not answered here."
+    }
 ];
 
 export default function FAQ() {
