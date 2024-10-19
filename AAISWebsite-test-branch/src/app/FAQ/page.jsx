@@ -53,6 +53,11 @@ const faqData = [
             </>
         )
     },
+    {
+        question: "What kind of events are held?",
+        answer: "Our general meetings go over how companies are using AI, as well as important business standpoints of incorporating AI into industry projects. We also host speaker events where people discuss their research, and go over tutorials where we teach different techniques for using AI."
+    },
+
 ];
 
 export default function FAQ() {
