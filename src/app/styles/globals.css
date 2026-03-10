@@ -1,0 +1,55 @@
+:root {
+  --max-width: 1100px;
+  --border-radius: 12px;
+  --font-azeret-mono: "Azeret Mono", monospace;
+  --font-poppins: "Poppins", monospace;
+}
+
+body {
+  background-color: #400d65;
+  color: #4f6397;
+}
+
+html {
+  /* font-family: var(--font-azeret-mono); */
+  /* font-family: var(--font-poppins); */
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-size: 50px;
+}
+h2 {
+  text-transform: uppercase;
+}
+
+.contentContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin-bottom: 22vh;
+}
+
+.window {
+  /* colors and styling */
+  filter: drop-shadow(16px 16px rgba(10, 10, 10, 0.25));
+  background-color: #f4edea;
+  border-top: 0px;
+  box-shadow: inset -2px -2px darkgrey, inset 2px 2px white;
+
+  /* dimensions */
+  box-sizing: border-box;
+  width: 80%;
+  max-width: 1500px;
+  min-width: 1234px;
+  
+  /* content positioning */
+  padding: 3px;
+}
+
+.title {
+  text-align: center;
+}
