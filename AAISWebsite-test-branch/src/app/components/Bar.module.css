@@ -14,14 +14,15 @@
     text-decoration: none;
   
     /* dimensions */
-    width: 16%;
-    max-width: 271px;
-    min-width: 150px;
-    height: 125px;
-  
-    /* spacing */
-    margin-left: 22px;
-    margin-right: 22px;
+  width: 15%;
+  max-width: 271px;
+  min-width: 100px;
+  min-height: 100px;
+  height: auto;
+  aspect-ratio: 1/1;
+
+  /* spacing */
+  margin: 10px;
   
     /* content positioning */
     display: flex;
@@ -46,55 +47,50 @@
     margin-top: 10px;
   }
   
-  #navbar {  
-    /* dimensions */
-    box-sizing: border-box;
-    width: 80%;
-    max-width: 1500px;
-    min-width: 1234px;
-    height: 205px;
+#navbar {  
+  /* dimensions */
+  box-sizing: border-box;
+  width: 95%;
+  max-width: 1200px;
+  min-height: 150px;
+
+  /* positioning */
+  position: relative;
+  margin: 20px auto;
   
-    /* positioning */
-    position: absolute;
-    top: 0;
-    left: 50%;
-    transform: translate(-50%, 0);
-    margin: auto;
-    margin-top: 22px;
-    margin-bottom: 22px;
-    
-    /* content positioning */
-    align-items: center;
-    padding: 3px;
-  }
+  /* content positioning */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3px;
+}
   
-  #footer {  
-    /* dimensions */
-    box-sizing: border-box;
-    width: 80%;
-    max-width: 1500px;
-    min-width: 1234px;
-    height: 205px;
+#footer {  
+  /* dimensions */
+  box-sizing: border-box;
+  width: 95%;
+  max-width: 1200px;
+  min-height: 150px;
+
+  /* positioning */
+  position: relative;
+  margin: 20px auto;
+
+  /* content positioning */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3px;
+}
   
-    /* positioning */
-    position: relative;
-    left: 50%;
-    transform: translate(-50%, 0);
-    bottom: 0;
-    margin-top: 22px;
-    margin-bottom: 22px;
-  
-    /* content positioning */
-    align-items: center;
-    padding: 3px;
-  }
-  
-  .button_container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 14px;
-  }
+.button_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 10px;
+  width: 100%;
+}
   
   .smbox__icon {
     color: #4f6397;
@@ -137,47 +133,73 @@
     transform: translateY(2px);
   }
   
-  .smbox {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 40%;
-    height: 125px;
-    margin-left: 22px;
-    margin-right: 22px;
-  }
+.smbox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  min-width: 250px;
+  margin: 10px;
+}
   
-  .meetbutton {
-    /* border: 5px solid #4f6397; */
-    box-shadow: inset -2px -2px darkgrey, inset 2px 2px white;
-    display: flex;
-    justify-content: space-around;
-    align-content: flex-start;
-    width: 50%;
-    height: 125px;
-    margin-left: 22px;
-    margin-right: 22px;
-    font-size: 30px;
-    letter-spacing: 5px;
-    color: #4f6397;
-    font-weight: 900;
-    text-transform: uppercase;
-    text-decoration: none;
-  }
+.meetbutton {
+  /* border: 5px solid #4f6397; */
+  box-shadow: inset -2px -2px darkgrey, inset 2px 2px white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1.5;
+  min-width: 300px;
+  min-height: 100px;
+  margin: 10px;
+  font-size: 24px;
+  letter-spacing: 2px;
+  color: #4f6397;
+  font-weight: 900;
+  text-transform: uppercase;
+  text-decoration: none;
+}
 
-  .meetbutton__text__container {
-    display: flex;
-    width: 500px;
-    height: 125px;
-    justify-content: center;
-    align-content: center;
-    flex-wrap: wrap;
-  }
+.meetbutton__text__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
   
-  .meetbutton__text {
+.meetbutton__text {
     padding: 10px;
     font-size: x-large;
+  }
+  
+  @media (max-width: 600px) {
+    .button, .button__current {
+        width: 40%;
+        min-width: 120px;
+        margin: 5px;
+    }
+    .smbutton {
+        width: 60px;
+        min-width: 60px;
+        height: 60px;
+        margin: 5px;
+    }
+    .smbox__icon svg {
+        width: 30px !important;
+        height: 30px !important;
+    }
+    .smbox__icon {
+        margin: 0;
+    }
+    .meetbutton {
+        font-size: 18px;
+        letter-spacing: 1px;
+    }
+    .meetbutton__text {
+        font-size: 16px;
+    }
   }
   
   .meetbutton:active {

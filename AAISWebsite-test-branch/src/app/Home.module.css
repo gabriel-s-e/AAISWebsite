@@ -3,7 +3,7 @@
     margin-right: auto;
     color: #4f6397; /* Set text color to blue */
     margin-bottom: 60px; /* Set this to the height of the footer */
-    margin-top: 1000px;
+    margin-top: 50px;
 }
 
 #homeTitle {
@@ -18,17 +18,33 @@
 }
 
 #logo {
-    display: flex;
-    margin:auto;
+    display: block;
+    margin: auto;
 }
+
 #logoContainer {
-    position: absolute;
-    margin-top: 200px;
-    width: 75%;
-    left: 50%;
-    margin-left: -37.5%;
+    margin: 30px auto;
+    width: 250px;
+    max-width: 80%;
+    display: flex;
+    justify-content: center;
+    background-color: #400d65;
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.25);
 }
 
 .windowText {
     margin: 40px;
+}
+
+@media (max-width: 600px) {
+    .windowText {
+        margin: 20px;
+        font-size: 14px;
+    }
+    #logoContainer {
+        padding: 15px;
+        width: 180px;
+    }
 }
