@@ -1,14 +1,14 @@
 import styles from "./Bar.module.css";
 import { FaDiscord, FaLinkedin, FaInstagram } from "react-icons/fa";
-import { PiLightbulbFilamentBold } from "react-icons/pi";
 import { SiGmail } from "react-icons/si";
 import Link from "next/link";
+import { CgShapeHexagon } from "react-icons/cg";
 import WindowTop from "./WindowTop";
 
 export default function Footer() {
   return (
     <div className="window" id={styles.footer}>
-      <WindowTop WindowIcon={PiLightbulbFilamentBold} title={"Stay Informed"} />
+      <WindowTop WindowIcon={CgShapeHexagon} title={"Aggie Artificial Intelligence Society"} />
       <div className={styles.button_container}>
         <div className={styles.smbox}>
           <div className={styles.button_container}>
@@ -18,8 +18,7 @@ export default function Footer() {
               className={styles.smbutton}
             >
               <div className={styles.smbox__icon}>
-                {" "}
-                <FaInstagram size={55} />{" "}
+                <FaInstagram size={55} />
               </div>
             </a>
             <a
@@ -28,8 +27,7 @@ export default function Footer() {
               className={styles.smbutton}
             >
               <div className={styles.smbox__icon}>
-                {" "}
-                <FaDiscord size={55} />{" "}
+                <FaDiscord size={55} />
               </div>
             </a>
             <a
@@ -38,8 +36,7 @@ export default function Footer() {
               className={styles.smbutton}
             >
               <div className={styles.smbox__icon}>
-                {" "}
-                <FaLinkedin size={55} />{" "}
+                <FaLinkedin size={55} />
               </div>
             </a>
             <a
@@ -48,8 +45,7 @@ export default function Footer() {
               className={styles.smbutton}
             >
               <div className={styles.smbox__icon}>
-                {" "}
-                <SiGmail size={55} />{" "}
+                <SiGmail size={55} />
               </div>
             </a>
           </div>
