@@ -9,7 +9,8 @@ import tim from "../assets/tim_smith.jpg";
 import will from "../assets/will_colglazier.jpg";
 import rhea from "../assets/rhea_kaithal.jpg";
 import gabriel from "../assets/gabriel_serrano.jpg";
-import gabrielle from "../assets/gabriel_serrano.jpg"; /* Image isn't importing for some reason...? */
+import gabrielle from "../assets/gabrielle_anne_irava.JPG";
+import blankPfp from "../assets/blank-pfp.png";
 import { MdOutlinePerson } from "react-icons/md";
 import Image from "next/image";
 
@@ -50,7 +51,7 @@ export default function About() {
             <div className="officer topRow">
               <div className="position">Vice President</div>
               <div className="photoContainer">
-              <Image src={officerTestPhoto} alt="President" className="photo" />
+              <Image src={blankPfp} alt="Vice President" className="photo" />
               </div>
               <div className="name">John Doe</div>
               <div className="icons">
@@ -162,48 +163,48 @@ export default function About() {
           {/* Second Row with 3 Officers */}
           <div className="row">
             <div className="officer">
-              <div className="position">Officer Title</div>
+              <div className="position">Frontend Web Dev/Designer</div>
               <div className="photoContainer">
-                <img src={officerTestPhoto} alt="Officer" className="photo" />
+                <Image src={blankPfp} alt="Officer" className="photo" />
               </div>
-              <div className="name">Officer Name</div>
+              <div className="name">Hanna Harmon</div>
               <div className="icons">
-                <a href="#" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.linkedin.com/in/hanna-harmon" target="_blank" rel="noopener noreferrer">
                   <FaLinkedin className="socialIcon" />
                 </a>
-                <a href="#" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/hannaharmon" target="_blank" rel="noopener noreferrer">
                   <FaGithub className="socialIcon" />
                 </a>
               </div>
             </div>
 
             <div className="officer">
-              <div className="position">Officer Title</div>
+              <div className="position">Frontend Web Developer</div>
               <div className="photoContainer">
-                <img src={officerTestPhoto} alt="Officer" className="photo" />
+                <Image src={blankPfp} alt="Officer" className="photo" />
               </div>
-              <div className="name">Officer Name</div>
+              <div className="name">Isaac Funes</div>
               <div className="icons">
-                <a href="#" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.linkedin.com/in/isaacfunes" target="_blank" rel="noopener noreferrer">
                   <FaLinkedin className="socialIcon" />
                 </a>
-                <a href="#" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/KingTheoden1" target="_blank" rel="noopener noreferrer">
                   <FaGithub className="socialIcon" />
                 </a>
               </div>
             </div>
 
             <div className="officer">
-              <div className="position">Officer Title</div>
+              <div className="position">Backend Web Developer</div>
               <div className="photoContainer">
-                <img src={officerTestPhoto} alt="Officer" className="photo" />
+                <Image src={blankPfp} alt="Officer" className="photo" />
               </div>
-              <div className="name">Officer Name</div>
+              <div className="name">Alex Beamer</div>
               <div className="icons">
-                <a href="#" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.linkedin.com/in/alex-beamer-00266529a" target="_blank" rel="noopener noreferrer">
                   <FaLinkedin className="socialIcon" />
                 </a>
-                <a href="#" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/blubywaff" target="_blank" rel="noopener noreferrer">
                   <FaGithub className="socialIcon" />
                 </a>
               </div>
