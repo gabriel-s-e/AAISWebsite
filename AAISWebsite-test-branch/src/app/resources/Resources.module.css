@@ -1,0 +1,79 @@
+.resourcesContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: #f4edea;
+    color: #4f6397;
+}
+
+.section {
+    margin-bottom: 30px;
+}
+
+.sectionTitle {
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    border-bottom: 2px solid #4f6397;
+    padding-bottom: 5px;
+}
+
+.resourceGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 20px;
+}
+
+.resourceCard {
+    background-color: #400d65;
+    color: #f4edea;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: transform 0.2s ease-in-out;
+    display: flex;
+    flex-direction: column;
+}
+
+.resourceCard:hover {
+    transform: translateY(-5px);
+}
+
+.resourceName {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #5eb8c8;
+}
+
+.resourceDescription {
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+    flex-grow: 1;
+}
+
+.resourceLink {
+    align-self: flex-start;
+    color: #f4edea;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.resourceLink:hover {
+    color: #5eb8c8;
+}
+
+@media (max-width: 600px) {
+    .resourcesContainer {
+        padding: 15px;
+    }
+    .sectionTitle {
+        font-size: 20px;
+    }
+    .resourceGrid {
+        grid-template-columns: 1fr;
+    }
+}

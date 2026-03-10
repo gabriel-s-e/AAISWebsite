@@ -1,0 +1,86 @@
+.calendarContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #f4edea;
+    color: #4f6397;
+}
+
+.calendarWrapper {
+    margin-bottom: 30px;
+    width: 100%;
+    max-width: 600px;
+}
+
+.eventsListSection {
+    width: 100%;
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 2px solid #4f6397;
+}
+
+.eventsListTitle {
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.eventItem {
+    background-color: #400d65;
+    color: #f4edea;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.eventDate {
+    font-weight: bold;
+    color: #5eb8c8;
+}
+
+.eventTitle {
+    font-size: 18px;
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+.eventDescription {
+    margin-top: 5px;
+    font-size: 14px;
+    opacity: 0.9;
+}
+
+/* Custom styles for react-calendar to match site theme */
+.calendarWrapper :global(.react-calendar) {
+    width: 100% !important;
+    background: #f4edea !important;
+    border: 2px solid #4f6397 !important;
+    font-family: inherit !important;
+}
+
+.calendarWrapper :global(.react-calendar__navigation button) {
+    color: #4f6397 !important;
+    min-width: 44px;
+    background: none;
+    font-size: 16px;
+    margin-top: 8px;
+}
+
+.calendarWrapper :global(.react-calendar__tile--now) {
+    background: #5eb8c8 !important;
+    color: white !important;
+}
+
+.calendarWrapper :global(.react-calendar__tile--active) {
+    background: #400d65 !important;
+    color: white !important;
+}
+
+.calendarWrapper :global(.react-calendar__tile:enabled:hover),
+.calendarWrapper :global(.react-calendar__tile:enabled:focus) {
+    background-color: #e6e6e6 !important;
+}

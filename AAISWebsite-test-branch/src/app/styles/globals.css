@@ -209,13 +209,13 @@ h2 {
   box-sizing: border-box;
   width: 95%;
   max-width: 1200px;
-  min-height: 100px;
+  min-height: auto;
 
   /* positioning */
   margin: 20px auto;
   
   /* content positioning */
-  padding: 3px;
+  padding: 0;
 }
 
 #footer {  
@@ -336,7 +336,7 @@ h2 {
 .window__top {
   text-transform: uppercase;
   /* background-color: #4f6397; */
-  padding-left: 10px;
+  padding: 0 10px;
   color: #f4edea;
   height: 36px;
   display: flex;
@@ -344,6 +344,7 @@ h2 {
   position: relative;
   background: linear-gradient(90deg, #4f6397, #5eb8c8);
   width: 100%;
+  box-sizing: border-box;
 }
 
 .window__title {
